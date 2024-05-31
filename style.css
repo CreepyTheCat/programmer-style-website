@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, monospace;
+    background-color: #512D88;
+    color: #00FF00;
+}
+
+.terminal {
+    width: 80%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #282C34;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#terminal-text {
+    overflow: auto;
+}
